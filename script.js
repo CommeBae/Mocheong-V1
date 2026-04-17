@@ -244,7 +244,7 @@
      ═══════════════════════════════════════════ */
 
   function initHero() {
-    $('#heroPhoto').src = 'images/샘플웨딩사진/6.jpg';
+    $('#heroPhoto').src = 'images/hero/6.jpg';
     $('#heroNames').textContent = `${CONFIG.groom.name}  ·  ${CONFIG.bride.name}`;
     $('#heroDate').textContent = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
     $('#heroVenue').textContent = CONFIG.wedding.venue;
@@ -453,7 +453,7 @@
       const div = document.createElement('div');
       div.className = 'gallery__item animate-item';
       div.setAttribute('data-animate', 'scale-in');
-      div.innerHTML = `<img src="${src}" alt="갤러리 사진 ${i + 1}" loading="lazy">`;
+      div.innerHTML = `<img src="${src}" alt="갤러리 사진 ${i}" loading="lazy">`;
       div.addEventListener('click', () => openPhotoModal(galleryImages, i));
       grid.appendChild(div);
     });
