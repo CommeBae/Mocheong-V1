@@ -129,7 +129,7 @@
   let isMuted = false;
 
   function initMusic() {
-    audio = new Audio('audio/marry_you.mp3');
+    audio = new Audio('10000 Hours trim.mp3');
     audio.loop = true;
     audio.volume = 0.4;
     audio.preload = 'auto';
