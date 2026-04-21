@@ -289,12 +289,12 @@ function initHero() {
   $('#heroPhoto').src = 'images/hero/7.jpg';
   $('#heroNames').innerHTML = `
     <div>
-  ${CONFIG.groom.father}&${CONFIG.groom.mother}의 아들<br>
-  <strong>${CONFIG.groom.name}</strong>
+  <span class="hero-parent-info">${CONFIG.groom.father}&${CONFIG.groom.mother}의 아들</span><br>
+  <span class="hero-groom-name"><strong>${CONFIG.groom.name}</strong></span>
 </div>
     <div>
-  ${CONFIG.bride.father}&${CONFIG.bride.mother}의 딸<br>
-  <strong>${CONFIG.bride.name}</strong>
+  <span class="hero-parent-info">${CONFIG.bride.father}&${CONFIG.bride.mother}의 딸</span><br>
+  <span class="hero-bride-name"><strong>${CONFIG.bride.name}</strong></span>
 </div>
   `;
   $('#heroDate').textContent = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
