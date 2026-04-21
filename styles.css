@@ -1182,3 +1182,31 @@ a {
 }
 .music-toggle.is-muted .icon-on  { display: none; }
 .music-toggle.is-muted .icon-off { display: block !important; }
+
+/* ═══════════════════════════════════════════
+   Hero Section - Font Customization
+   ═══════════════════════════════════════════ */
+
+/* 부모 정보 폰트 */
+.hero-parent-info {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* 신랑 이름 폰트 */
+.hero-groom-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+/* 신부 이름 폰트 */
+.hero-bride-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
